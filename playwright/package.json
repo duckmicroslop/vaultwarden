@@ -8,7 +8,7 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@playwright/test": "1.60.0",
+        "@playwright/test": "1.63.0",
         "dotenv": "17.4.2",
         "dotenv-expand": "13.0.0",
         "maildev": "npm:@timshel_npm/maildev@3.2.19"
