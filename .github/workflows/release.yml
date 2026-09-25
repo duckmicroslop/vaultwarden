@@ -249,7 +249,7 @@ jobs:
 
   merge-manifests:
     name: Merge manifests
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     needs: docker-build
     environment: 
       name: release
