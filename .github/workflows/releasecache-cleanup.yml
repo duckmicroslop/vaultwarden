@@ -21,7 +21,7 @@ jobs:
     name: Releasecache Cleanup
     permissions:
       packages: write # To be able to cleanup old caches
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     continue-on-error: true
     timeout-minutes: 30
     steps:
