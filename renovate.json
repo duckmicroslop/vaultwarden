@@ -4,4 +4,10 @@
     "config:recommended"
   ],
   "forkProcessing": "enabled"
+  "packageRules": [
+    {
+      "matchPackageNames": ["vaultwarden/web-vault", "docker.io/vaultwarden/web-vault"],
+      "enabled": false
+    }
+  ]
 }
