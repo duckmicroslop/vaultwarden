@@ -105,7 +105,7 @@ services:
   Keycloak:
     profiles: ["keycloak", "vaultwarden"]
     container_name: keycloak-${ENV:-dev}
-    image: quay.io/keycloak/keycloak:26.6.2
+    image: quay.io/keycloak/keycloak:26.7.4
     network_mode: "host"
     command:
       - start-dev
